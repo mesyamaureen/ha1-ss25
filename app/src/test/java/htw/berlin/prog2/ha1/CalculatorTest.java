@@ -124,7 +124,7 @@ class CalculatorTest {
     }
 
     @Test
-    @DisplayName("should reset screen to zero after pressing clear key once")
+    @DisplayName("should reset screen to zero after pressing clear key once without deleting the previous result")
     void testClearAfterOperation() {
         Calculator calc = new Calculator();
 
